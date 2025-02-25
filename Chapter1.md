@@ -189,7 +189,7 @@ $$
 
 # Bezout's Identity
 
-$\forall a,b \in \mathbb{Z}^+$, let $\gcd(a,b)=d$, $\exist m,n \in \mathbb{Z}$
+$\forall a,b \in \mathbb{Z}^+$, let $\gcd(a,b)=d$, $\exists m,n \in \mathbb{Z}$
 
 $$
 d=ma+nb
