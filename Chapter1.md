@@ -125,14 +125,14 @@ If $\gcd(a,b) = d$, then $\gcd(\frac{a}{d},\frac{b}{d})=1$.
 ### Proof
 
 $$
-\begin{align*}
+\begin{array}{c}
     \text{let}\quad \gcd(a,b)=d \\
     \text{then} \quad a = dx, b=dy \\
     \text{d is the greatest common divisor} \\
     \therefore \gcd(x,y) = 1 \\
     \text{and} \quad x=\frac{a}{d} \quad y=\frac{b}{d} \\
     \therefore \gcd(\frac{a}{d},\frac{b}{d})=1
-\end{align*}
+\end{array}
 $$
 
 ## Theorem 2
