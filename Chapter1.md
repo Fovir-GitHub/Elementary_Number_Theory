@@ -93,13 +93,15 @@ $\forall n \in \mathbb{Z}^+$, we can find $n$ consecutive composite numbers.
 The consecutive composite numbers are:
 
 $$
-\begin{cases}
-    (n+1)! + 2 \\
-    (n+1)! + 3 \\
-    (n+1)! + 4 \\
-    \vdots \\
-    (n+1)!+(n+1)
-\end{cases}
+\begin{align*}
+    \begin{cases}
+        (n+1)! + 2 \\
+        (n+1)! + 3 \\
+        (n+1)! + 4 \\
+        \vdots \\
+        (n+1)!+(n+1)
+    \end{cases}
+\end{align*}
 $$
 
 ## Conjectures about Primes
@@ -123,42 +125,48 @@ If $\gcd(a,b) = d$, then $\gcd(\frac{a}{d},\frac{b}{d})=1$.
 ### Proof
 
 $$
-\text{let}\quad \gcd(a,b)=d \\
-\text{then} \quad a = dx, b=dy \\
-\text{d is the greatest common divisor} \\
-\therefore \gcd(x,y) = 1 \\
-\text{and} \quad x=\frac{a}{d} \quad y=\frac{b}{d} \\[10px]
-\therefore \gcd(\frac{a}{d},\frac{b}{d})=1
+\begin{align*}
+    \text{let}\quad \gcd(a,b)=d \\
+    \text{then} \quad a = dx, b=dy \\
+    \text{d is the greatest common divisor} \\
+    \therefore \gcd(x,y) = 1 \\
+    \text{and} \quad x=\frac{a}{d} \quad y=\frac{b}{d} \\[10px]
+    \therefore \gcd(\frac{a}{d},\frac{b}{d})=1
+\end{align*}
 $$
 
 ## Theorem 2
 
 $$
-a,b,c \in \mathbb{Z} \\
-\gcd(a+cb,b)=\gcd(a,b)
+\begin{align*}
+    a,b,c \in \mathbb{Z} \\
+    \gcd(a+cb,b)=\gcd(a,b)
+\end{align*}
 $$
 
 ### Proof
 
 $$
-\text{let} \; \gcd(a,b)=d \\
-\text{then} \; a=d \cdot k \quad b=d \cdot m \\
-a+c\cdot b = d \cdot k + c \cdot (d \cdot m) = d \cdot (k+c \cdot m) \\
-\gcd(a+cb,b) = \gcd(d(k+cm),dm)= d \cdot \gcd(k+cm,m) \\
-\text{suppose} \; \exists \; e \in \mathbb{Z}^+, e \mid m \; \land \; e \mid {k+cm} \\
-m = e \cdot t\;,\; t \in \mathbb{Z} \\
-k + cm = e \cdot s \;,\; s \in \mathbb{Z} \\
-\text{substitute} \; m \; \text{into} \; {k+cm} \\
-k+c(e \cdot t) = e \cdot s \\
-k=e(s-ct) \\
-\because s-ct \in \mathbb{Z} \\
-\therefore e \mid k \\
-\because \gcd(k,m)=1 \\
-\therefore e = 1 \\
-\therefore \gcd(k+cm,m) = 1 \\
-\therefore \gcd(d(k+cm),dm)=d \cdot 1 = d \\
-\because d = \gcd(a,b) \\
-\therefore \gcd(a+cb,b) = gcd(a,b)
+\begin{align*}
+    \text{let} \; \gcd(a,b)=d \\
+    \text{then} \; a=d \cdot k \quad b=d \cdot m \\
+    a+c\cdot b = d \cdot k + c \cdot (d \cdot m) = d \cdot (k+c \cdot m) \\
+    \gcd(a+cb,b) = \gcd(d(k+cm),dm)= d \cdot \gcd(k+cm,m) \\
+    \text{suppose} \; \exists \; e \in \mathbb{Z}^+, e \mid m \; \land \; e \mid {k+cm} \\
+    m = e \cdot t\;,\; t \in \mathbb{Z} \\
+    k + cm = e \cdot s \;,\; s \in \mathbb{Z} \\
+    \text{substitute} \; m \; \text{into} \; {k+cm} \\
+    k+c(e \cdot t) = e \cdot s \\
+    k=e(s-ct) \\
+    \because s-ct \in \mathbb{Z} \\
+    \therefore e \mid k \\
+    \because \gcd(k,m)=1 \\
+    \therefore e = 1 \\
+    \therefore \gcd(k+cm,m) = 1 \\
+    \therefore \gcd(d(k+cm),dm)=d \cdot 1 = d \\
+    \because d = \gcd(a,b) \\
+    \therefore \gcd(a+cb,b) = gcd(a,b)
+\end{align*}
 $$
 
 ## The Euclidean Algorithm
@@ -166,11 +174,13 @@ $$
 Given integers $a$ and $b$ with $a \geq b \gt 0$, let $r_0=a$ and $r_1=b$
 
 $$
-a=bq_1+r_2 \\
-b=r_2q_2+r_3 \\
-r_2=r_3q_3+r_4 \\
-\vdots \\
-r_{n-1}=r_nq_n
+\begin{align*}
+    a=bq_1+r_2 \\
+    b=r_2q_2+r_3 \\
+    r_2=r_3q_3+r_4 \\
+    \vdots \\
+    r_{n-1}=r_nq_n
+\end{align*}
 $$
 
 Then,
@@ -206,9 +216,11 @@ $$
 ## Lemma 1
 
 $$
-\text{if} \; a,b,c \in \mathbb{Z}^+ \\
-(\gcd(a,b)=1)  \land (a \mid bc) \\
-\text{then} \; a \mid c
+\begin{align*}
+    \text{if} \; a,b,c \in \mathbb{Z}^+ \\
+    (\gcd(a,b)=1)  \land (a \mid bc) \\
+    \text{then} \; a \mid c
+\end{align*}
 $$
 
 ## Lemma 2
@@ -216,10 +228,12 @@ $$
 If $p$ is a prime number, then
 
 $$
-\forall a \in \mathbb{Z} \\
-\gcd(p,a)=p \\
-\text{or} \\
-\gcd(p,a)=1 \\
+\begin{align*}
+    \forall a \in \mathbb{Z} \\
+    \gcd(p,a)=p \\
+    \text{or} \\
+    \gcd(p,a)=1 \\
+\end{align*}
 $$
 
 ## Lemma 3
@@ -227,15 +241,19 @@ $$
 If $p$ is a prime number.
 
 $$
-\text{if} \quad p \mid a_1a_2 \dots a_n \\
-\text{then} \quad \exists i \in [1,n], p \mid a_i
+\begin{align*}
+    \text{if} \quad p \mid a_1a_2 \dots a_n \\
+    \text{then} \quad \exists i \in [1,n], p \mid a_i
+\end{align*}
 $$
 
 ## Fundamental Theorem of Arithmetic
 
 $$
-\forall m \in \mathbb{Z}^+, m \gt 1 \\
-m=\sum_{i=1}^{k}(p_i^{a_i}) \quad p_i \; \text{is prime number and} \; a_i \in \mathbb{Z}^+
+\begin{align*}
+    \forall m \in \mathbb{Z}^+, m \gt 1 \\
+    m=\sum_{i=1}^{k}(p_i^{a_i}) \quad p_i \; \text{is prime number and} \; a_i \in \mathbb{Z}^+
+\end{align*}
 $$
 
 # Least Common Multiple
@@ -245,8 +263,10 @@ The smallest positive integer that is a multiple of both $a$ and $b$ can be writ
 ## Theorem 1
 
 $$
-\text{if} \quad a=\sum_{i=1}^{n}(p_i^{a_i}) \quad b=\sum_{i=1}^{n}(p_i^{b_i}) \\
-\text{then} \quad \gcd(a,b)=\sum_{i=1}^{n}(p_i^{\min\{a_i,b_i\}}) \quad lcm(a,b) = \sum_{i=1}^{n}{p_i^{\max\{a_i,b_i\}}}
+\begin{align*}
+    \text{if} \quad a=\sum_{i=1}^{n}(p_i^{a_i}) \quad b=\sum_{i=1}^{n}(p_i^{b_i}) \\
+    \text{then} \quad \gcd(a,b)=\sum_{i=1}^{n}(p_i^{\min\{a_i,b_i\}}) \quad lcm(a,b) = \sum_{i=1}^{n}{p_i^{\max\{a_i,b_i\}}}
+\end{align*}
 $$
 
 ## Theorem 2
