@@ -93,15 +93,13 @@ $\forall n \in \mathbb{Z}^+$, we can find $n$ consecutive composite numbers.
 The consecutive composite numbers are:
 
 $$
-\begin{align*}
-    \begin{cases}
-        (n+1)! + 2 \\
-        (n+1)! + 3 \\
-        (n+1)! + 4 \\
-        \vdots \\
-        (n+1)!+(n+1)
-    \end{cases}
-\end{align*}
+\begin{cases}
+    (n+1)! + 2 \\
+    (n+1)! + 3 \\
+    (n+1)! + 4 \\
+    \vdots \\
+    (n+1)!+(n+1)
+\end{cases}
 $$
 
 ## Conjectures about Primes
@@ -138,16 +136,16 @@ $$
 ## Theorem 2
 
 $$
-\begin{align*}
+\begin{array}{c}
     a,b,c \in \mathbb{Z} \\
     \gcd(a+cb,b)=\gcd(a,b)
-\end{align*}
+\end{array}
 $$
 
 ### Proof
 
 $$
-\begin{align*}
+\begin{array}{c}
     \text{let} \; \gcd(a,b)=d \\
     \text{then} \; a=d \cdot k \quad b=d \cdot m \\
     a+c\cdot b = d \cdot k + c \cdot (d \cdot m) = d \cdot (k+c \cdot m) \\
@@ -166,7 +164,7 @@ $$
     \therefore \gcd(d(k+cm),dm)=d \cdot 1 = d \\
     \because d = \gcd(a,b) \\
     \therefore \gcd(a+cb,b) = gcd(a,b)
-\end{align*}
+\end{array}
 $$
 
 ## The Euclidean Algorithm
@@ -174,13 +172,13 @@ $$
 Given integers $a$ and $b$ with $a \geq b \gt 0$, let $r_0=a$ and $r_1=b$
 
 $$
-\begin{align*}
+\begin{array}{c}
     a=bq_1+r_2 \\
     b=r_2q_2+r_3 \\
     r_2=r_3q_3+r_4 \\
     \vdots \\
     r_{n-1}=r_nq_n
-\end{align*}
+\end{array}
 $$
 
 Then,
@@ -216,11 +214,11 @@ $$
 ## Lemma 1
 
 $$
-\begin{align*}
+\begin{array}{c}
     \text{if} \; a,b,c \in \mathbb{Z}^+ \\
     (\gcd(a,b)=1)  \land (a \mid bc) \\
     \text{then} \; a \mid c
-\end{align*}
+\end{array}
 $$
 
 ## Lemma 2
@@ -228,12 +226,12 @@ $$
 If $p$ is a prime number, then
 
 $$
-\begin{align*}
+\begin{array}{c}
     \forall a \in \mathbb{Z} \\
     \gcd(p,a)=p \\
     \text{or} \\
     \gcd(p,a)=1 \\
-\end{align*}
+\end{array}
 $$
 
 ## Lemma 3
@@ -241,19 +239,19 @@ $$
 If $p$ is a prime number.
 
 $$
-\begin{align*}
+\begin{array}{c}
     \text{if} \quad p \mid a_1a_2 \dots a_n \\
     \text{then} \quad \exists i \in [1,n], p \mid a_i
-\end{align*}
+\end{array}
 $$
 
 ## Fundamental Theorem of Arithmetic
 
 $$
-\begin{align*}
+\begin{array}{c}
     \forall m \in \mathbb{Z}^+, m \gt 1 \\
     m=\sum_{i=1}^{k}(p_i^{a_i}) \quad p_i \; \text{is prime number and} \; a_i \in \mathbb{Z}^+
-\end{align*}
+\end{array}
 $$
 
 # Least Common Multiple
@@ -263,10 +261,10 @@ The smallest positive integer that is a multiple of both $a$ and $b$ can be writ
 ## Theorem 1
 
 $$
-\begin{align*}
+\begin{array}{c}
     \text{if} \quad a=\sum_{i=1}^{n}(p_i^{a_i}) \quad b=\sum_{i=1}^{n}(p_i^{b_i}) \\
     \text{then} \quad \gcd(a,b)=\sum_{i=1}^{n}(p_i^{\min\{a_i,b_i\}}) \quad lcm(a,b) = \sum_{i=1}^{n}{p_i^{\max\{a_i,b_i\}}}
-\end{align*}
+\end{array}
 $$
 
 ## Theorem 2
