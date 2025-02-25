@@ -10,25 +10,17 @@ $$
 
 If $a \equiv b \mod m$, then:
 
-$$
-\begin{array}{c}
-    \textcircled{1} \quad a + c \equiv b + c \pmod m \\
-    \textcircled{2} \quad a - c \equiv b - c \pmod m \\
-    \textcircled{3} \quad ac \equiv bc \pmod m 
-\end{array}
-$$
+1. $\quad a + c \equiv b + c \pmod m$
+2. $\quad a - c \equiv b - c \pmod m$
+3. $\quad ac \equiv bc \pmod m$
 
 ## Theorem 2
 
 If $a \equiv b \pmod m, \; c \equiv d \pmod m$, then:
 
-$$
-\begin{array}{c}
-    a + c \equiv b + d \pmod m \\
-    a - c \equiv b - d \pmod m \\
-    ac \equiv bd \pmod m \\
-\end{array}
-$$
+1. $a + c \equiv b + d \pmod m$
+2. $a - c \equiv b - d \pmod m$
+3. $ac \equiv bd \pmod m$
 
 ## Theorem 3
 
@@ -58,7 +50,7 @@ $$
     \therefore m_1 \mid a-b \\
     \therefore a-b \equiv 0 \pmod m_1 \\
     \because m_1=\frac{m}{d} \\
-    \therefore a \equiv b \pmod {\frac{m}{d}} \\
+    \therefore a \equiv b \pmod {\frac{m}{d}}
 \end{array}
 $$
 
