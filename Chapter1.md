@@ -56,7 +56,9 @@ If $a = bc$, where $a,b,c \in \mathbb{Z}$ and $b \ge 0$, we say **$b$ divides $a
 
 ## Theorem 1
 
-Every number greater than 1 has a prime divisor.
+$$
+\forall n \in \mathbb{Z}^+, n \gt 1, \exists p, p \mid n \quad p \space \text{is a prime number}
+$$
 
 ## Theorem 2
 
