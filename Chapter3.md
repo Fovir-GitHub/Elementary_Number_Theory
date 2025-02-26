@@ -80,7 +80,7 @@ $$
 $$
 \begin{array}{c}
     p \space \text{is a prmie number} \\
-    \phi(p) = p^n - p^{n-1}
+    \phi(p^n) = p^n - p^{n-1}
 \end{array}
 $$
 
