@@ -16,7 +16,7 @@ If $a \equiv b \mod m$, then:
 
 ## Theorem 2
 
-If $a \equiv b \pmod m, \; c \equiv d \pmod m$, then:
+If $a \equiv b \pmod m, \space c \equiv d \pmod m$, then:
 
 1. $a + c \equiv b + d \pmod m$
 2. $a - c \equiv b - d \pmod m$
@@ -160,7 +160,7 @@ $$
     \because \gcd(13,31) = 1 \\
     \therefore \text{The inverse exists} \\
     y=\frac{31k+1}{13},\quad k \in \mathbb{Z} \\
-    \text{When} \; k = 5, y \in \mathbb{Z}\\
+    \text{When} \space k = 5, y \in \mathbb{Z}\\
     \therefore y = 12 \\
     \therefore 13^{-1} = 12 \\
     13x \cdot 13^{-1} \equiv 7 \cdot 13^{-1} \mod 31 \\
@@ -234,7 +234,7 @@ $$
         x \equiv \bar{\Delta} \det(X) \pmod m \\
         y \equiv \bar{\Delta} \det(Y) \pmod m \\
     \end{cases} 
-    \quad \text{where} \; \Delta \cdot \bar{\Delta} \equiv 1 \pmod m \\
+    \quad \text{where} \space \Delta \cdot \bar{\Delta} \equiv 1 \pmod m \\
 \end{array}
 $$
 
@@ -269,7 +269,7 @@ If $p$ is a prime number, then $(p-1)! \equiv -1 \mod p$
 
 $$
 \begin{array}{c}
-    p \; \text{is a prime number} \quad a \in \mathbb{Z}^+ \\
+    p \space \text{is a prime number} \quad a \in \mathbb{Z}^+ \\
     \text{If} \quad p \nmid a \\
     \text{then} \quad a^{p-1} \equiv 1 \mod p 
 \end{array}
@@ -279,7 +279,7 @@ $$
 
 $$
 \begin{array}{c}
-    p \; \text{is a prime number} \quad a \in \mathbb{Z}^+ \\
+    p \space \text{is a prime number} \quad a \in \mathbb{Z}^+ \\
     a^p \equiv a \mod p 
 \end{array}
 $$
@@ -308,14 +308,14 @@ $$
 \begin{array}{c}
     rrs = \{r_1,r_2,\dots,r_{\phi(n)}\} \\
     a \in \mathbb{Z}^+, \gcd(a,n) = 1 \\
-    \{ar_1,ar_2,\dots,ar_{\phi(n)}\} \; \text{is also a reduced residue system modulo n}
+    \{ar_1,ar_2,\dots,ar_{\phi(n)}\} \space \text{is also a reduced residue system modulo n}
 \end{array}
 $$
 
 ### Theorem 2
 
 $$
-\forall r \in rrs, r^{-1} \; \text{exists}
+\forall r \in rrs, r^{-1} \space \text{exists}
 $$
 
 ### Euler's Theorem

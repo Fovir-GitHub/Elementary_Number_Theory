@@ -146,14 +146,14 @@ $$
 
 $$
 \begin{array}{c}
-    \text{let} \; \gcd(a,b)=d \\
-    \text{then} \; a=d \cdot k \quad b=d \cdot m \\
+    \text{let} \space \gcd(a,b)=d \\
+    \text{then} \space a=d \cdot k \quad b=d \cdot m \\
     a+c\cdot b = d \cdot k + c \cdot (d \cdot m) = d \cdot (k+c \cdot m) \\
     \gcd(a+cb,b) = \gcd(d(k+cm),dm)= d \cdot \gcd(k+cm,m) \\
-    \text{suppose} \; \exists \; e \in \mathbb{Z}^+, e \mid m \; \land \; e \mid {k+cm} \\
-    m = e \cdot t\;,\; t \in \mathbb{Z} \\
-    k + cm = e \cdot s \;,\; s \in \mathbb{Z} \\
-    \text{substitute} \; m \; \text{into} \; {k+cm} \\
+    \text{suppose} \space \exists \space e \in \mathbb{Z}^+, e \mid m \space \land \space e \mid {k+cm} \\
+    m = e \cdot t\space,\space t \in \mathbb{Z} \\
+    k + cm = e \cdot s \space,\space s \in \mathbb{Z} \\
+    \text{substitute} \space m \space \text{into} \space {k+cm} \\
     k+c(e \cdot t) = e \cdot s \\
     k=e(s-ct) \\
     \because s-ct \in \mathbb{Z} \\
@@ -215,9 +215,9 @@ $$
 
 $$
 \begin{array}{c}
-    \text{if} \; a,b,c \in \mathbb{Z}^+ \\
+    \text{if} \space a,b,c \in \mathbb{Z}^+ \\
     (\gcd(a,b)=1)  \land (a \mid bc) \\
-    \text{then} \; a \mid c
+    \text{then} \space a \mid c
 \end{array}
 $$
 
@@ -250,7 +250,7 @@ $$
 $$
 \begin{array}{c}
     \forall m \in \mathbb{Z}^+, m \gt 1 \\
-    m=\sum_{i=1}^{k}(p_i^{a_i}) \quad p_i \; \text{is prime number and} \; a_i \in \mathbb{Z}^+
+    m=\sum_{i=1}^{k}(p_i^{a_i}) \quad p_i \space \text{is prime number and} \space a_i \in \mathbb{Z}^+
 \end{array}
 $$
 
