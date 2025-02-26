@@ -250,7 +250,7 @@ $$
 $$
 \begin{array}{c}
     \forall m \in \mathbb{Z}^+, m \gt 1 \\
-    m=\sum_{i=1}^{k}(p_i^{a_i}) \quad p_i \space \text{is prime number and} \space a_i \in \mathbb{Z}^+
+    m=\displaystyle\sum_{i=1}^{k}(p_i^{a_i}) \quad p_i \space \text{is prime number and} \space a_i \in \mathbb{Z}^+
 \end{array}
 $$
 
@@ -262,8 +262,8 @@ The smallest positive integer that is a multiple of both $a$ and $b$ can be writ
 
 $$
 \begin{array}{c}
-    \text{if} \quad a=\sum_{i=1}^{n}(p_i^{a_i}) \quad b=\sum_{i=1}^{n}(p_i^{b_i}) \\
-    \text{then} \quad \gcd(a,b)=\sum_{i=1}^{n}(p_i^{\min\{a_i,b_i\}}) \quad lcm(a,b) = \sum_{i=1}^{n}{p_i^{\max\{a_i,b_i\}}}
+    \text{if} \quad a=\displaystyle\sum_{i=1}^{n}(p_i^{a_i}) \quad b=\displaystyle\sum_{i=1}^{n}(p_i^{b_i}) \\
+    \text{then} \quad \gcd(a,b)=\displaystyle\sum_{i=1}^{n}(p_i^{\min\{a_i,b_i\}}) \quad lcm(a,b) = \displaystyle\sum_{i=1}^{n}{p_i^{\max\{a_i,b_i\}}}
 \end{array}
 $$
 
@@ -303,7 +303,7 @@ $$
 2. Find the particular solution by solving:
 
 $$
-ax+by=d 
+ax+by=d
 $$
 
 3. Simplify the equation $ax+by=d$ (Optional)
