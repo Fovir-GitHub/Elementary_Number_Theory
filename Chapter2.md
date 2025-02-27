@@ -59,7 +59,7 @@ $$
 $$
 \begin{array}{c}
     a,b,c,m \in \mathbb{Z}, m \gt 0, \gcd(c,m)=1 \\
-    \text{if} \quad ac \equiv bc \pmod m \\ 
+    \text{if} \quad ac \equiv bc \pmod m \\
     \text{then} \quad a \equiv b \pmod m \\
 \end{array}
 $$
@@ -90,7 +90,7 @@ $$
 If $a$ is a congruence class modulo $m$, $a$ is:
 
 $$
-[a]_m = \{x \in \mathbb{Z} \mid x \equiv a \pmod m\}
+[a]_m = \\{x \in \mathbb{Z} \mid x \equiv a \pmod m\\}
 $$
 
 # Complete System of Residues Modulo $m$
@@ -99,7 +99,7 @@ If $R$ is a complete system of residues modulo $m$, it is:
 
 $$
 \begin{array}{c}
-    R = \{r_1,r_2,\dots r_m\} \\
+    R = \\{r_1,r_2,\dots r_m\\} \\
     \forall n \in \mathbb{Z} \quad (n \mod m) \in R
 \end{array}
 $$
@@ -109,7 +109,7 @@ $$
 A complete system of residues modulo 7 is
 
 $$
-R=\{0,1,2,3,4,5,6\}
+R=\\{0,1,2,3,4,5,6\\}
 $$
 
 # Linear Congruence in One Variable
@@ -174,14 +174,14 @@ $$
 
 $$
 \begin{array}{c}
-    \mathbb{M}=\{m_1,m_2,\dots,m_r\} \\
+    \mathbb{M}=\\{m_1,m_2,\dots,m_r\\} \\
     \forall m_i,m_j \in \mathbb{M}, \gcd(m_i,m_j) = 1, i \ne j \\
     \text{if} \quad
     \begin{cases}
         x \equiv a_1 \mod m_1 \\
         x \equiv a_2 \mod m_2 \\
         \vdots
-        x \equiv a_r \mod m_r 
+        x \equiv a_r \mod m_r
     \end{cases} \\
     \text{then} \quad M = \displaystyle\prod_{i=1}^{r}{m_i} \quad \text{is a unique solution modulo}
 \end{array}
@@ -194,9 +194,9 @@ $$
     \text{To solve} \quad
     \begin{cases}
         ax+by \equiv e \mod m \\
-        cx+dy \equiv f \mod m 
+        cx+dy \equiv f \mod m
     \end{cases} \\
-    \text{That is} \quad 
+    \text{That is} \quad
     \begin{bmatrix}
         a & b \\
         c & d \\
@@ -213,18 +213,18 @@ $$
     \text{For} \quad A =
     \begin{bmatrix}
         a & b \\
-        c & d 
+        c & d
     \end{bmatrix} \\
     \Delta = \det(A) = ad - bc  \\
     \text{If} \quad \gcd(\Delta,m) = 1 \\
     \text{then the system has a unique solution modulo } m \\
-    \text{let} \quad X = 
+    \text{let} \quad X =
     \begin{bmatrix}
         e & b \\
         f & d \\
     \end{bmatrix}
-    \quad 
-    Y = 
+    \quad
+    Y =
     \begin{bmatrix}
         a & e \\
         c & f \\
@@ -233,7 +233,7 @@ $$
     \begin{cases}
         x \equiv \bar{\Delta} \det(X) \pmod m \\
         y \equiv \bar{\Delta} \det(Y) \pmod m \\
-    \end{cases} 
+    \end{cases}
     \quad \text{where} \space \Delta \cdot \bar{\Delta} \equiv 1 \pmod m \\
 \end{array}
 $$
@@ -255,7 +255,7 @@ $$
     1234567895 \\
     1-2+3-4+5-6+7-8+9-5=0 \\
     \because 11 \mid 0 \\
-    \therefore 11 \mid 1234567895 
+    \therefore 11 \mid 1234567895
 \end{array}
 $$
 
@@ -271,7 +271,7 @@ $$
 \begin{array}{c}
     p \space \text{is a prime number} \quad a \in \mathbb{Z}^+ \\
     \text{If} \quad p \nmid a \\
-    \text{then} \quad a^{p-1} \equiv 1 \mod p 
+    \text{then} \quad a^{p-1} \equiv 1 \mod p
 \end{array}
 $$
 
@@ -280,7 +280,7 @@ $$
 $$
 \begin{array}{c}
     p \space \text{is a prime number} \quad a \in \mathbb{Z}^+ \\
-    a^p \equiv a \mod p 
+    a^p \equiv a \mod p
 \end{array}
 $$
 
@@ -289,14 +289,14 @@ $$
 ## Euler phi-function
 
 $$
-\phi(n) = card(\{x \in \mathbb{Z}^+ \mid \gcd(x,n) = 1, x \in [1,n]\})
+\phi(n) = card(\\{x \in \mathbb{Z}^+ \mid \gcd(x,n) = 1, x \in [1,n]\\})
 $$
 
 ## Reduced Residue System
 
 $$
 \begin{array}{c}
-    rrs = \{r_1,r_2,\dots,r_{\phi(n)}\} \\
+    rrs = \\{r_1,r_2,\dots,r_{\phi(n)}\\} \\
     \forall r \in rrs, \gcd(r,n) = 1 \\
     \forall r_i, r_j \in rrs, i \ne j, r_i \not \equiv r_j \pmod m
 \end{array}
@@ -306,9 +306,9 @@ $$
 
 $$
 \begin{array}{c}
-    rrs = \{r_1,r_2,\dots,r_{\phi(n)}\} \\
+    rrs = \\{r_1,r_2,\dots,r_{\phi(n)}\\} \\
     a \in \mathbb{Z}^+, \gcd(a,n) = 1 \\
-    \{ar_1,ar_2,\dots,ar_{\phi(n)}\} \space \text{is also a reduced residue system modulo n}
+    \\{ar_1,ar_2,\dots,ar_{\phi(n)}\\} \space \text{is also a reduced residue system modulo n}
 \end{array}
 $$
 
@@ -323,6 +323,6 @@ $$
 $$
 \begin{array}{c}
     m \in \mathbb{Z}^+, a \in \mathbb{Z} \quad \gcd(a,m) = 1 \\
-    a^{\phi(m)} \equiv 1 \mod m 
+    a^{\phi(m)} \equiv 1 \mod m
 \end{array}
 $$

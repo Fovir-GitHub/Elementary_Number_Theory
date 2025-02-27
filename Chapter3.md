@@ -159,7 +159,7 @@ $$
 
 $$
 \begin{array}{c}
-    \forall p \in \{1,p,p^2,\dots,p^n\}, \space p \mid p^n \\
+    \forall p \in \\{1,p,p^2,\dots,p^n\\}, \space p \mid p^n \\
     \sigma(p^n) = \displaystyle\sum_{i=0}^{n}{p^i} = \frac{p^{n+1} - 1}{p - 1}
 \end{array}
 $$

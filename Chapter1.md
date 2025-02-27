@@ -30,7 +30,7 @@ $\pi$
 
 Every non-empty subset of positive integers has a smallest element.
 
-Sign of empty set: $\emptyset$ or $\{\}$
+Sign of empty set: $\emptyset$ or $\\{\\}$
 
 # Principle of Mathematical Induction
 
@@ -199,10 +199,10 @@ $$
 
 ## Theorem 1
 
-Let $a,b \in \mathbb{Z}, S=\{ma+nb \mid m,n \in \mathbb{Z}\}$. Then $d=\gcd(a,b)$ is the smallest positive integer in $S$, and
+Let $a,b \in \mathbb{Z}, S=\\{ma+nb \mid m,n \in \mathbb{Z}\\}$. Then $d=\gcd(a,b)$ is the smallest positive integer in $S$, and
 
 $$
-S = \{kd \mid k \in \mathbb{Z}\}
+S = \\{kd \mid k \in \mathbb{Z}\\}
 $$
 
 ## Theorem 2
@@ -265,7 +265,7 @@ The smallest positive integer that is a multiple of both $a$ and $b$ can be writ
 $$
 \begin{array}{c}
     \text{if} \quad a=\displaystyle\sum_{i=1}^{n}(p_i^{a_i}) \quad b=\displaystyle\sum_{i=1}^{n}(p_i^{b_i}) \\
-    \text{then} \quad \gcd(a,b)=\displaystyle\sum_{i=1}^{n}(p_i^{\min\{a_i,b_i\}}) \quad lcm(a,b) = \displaystyle\sum_{i=1}^{n}{p_i^{\max\{a_i,b_i\}}}
+    \text{then} \quad \gcd(a,b)=\displaystyle\sum_{i=1}^{n}(p_i^{\min\\{a_i,b_i\\}}) \quad lcm(a,b) = \displaystyle\sum_{i=1}^{n}{p_i^{\max\\{a_i,b_i\\}}}
 \end{array}
 $$
 
