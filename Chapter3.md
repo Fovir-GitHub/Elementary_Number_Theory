@@ -172,7 +172,7 @@ $\sigma(n)$ is a multiplicative function.
 
 1. The encryption key is $(n,e)$, where $n=pq$, $p$ and $q$ are prime numbers, $\gcd(e,\phi(n) = (p-1)(q-1)) = 1$. Plus, $e$ is the public key.
 2. Calculate the private key $(d,n)$, where $de \equiv 1 \mod \phi(n)$
-3. Translate the plaintext into numbers, $m = \{m_1,m_2,\dots , m_k\}$
+3. Translate the plaintext into numbers, $m = \\{m_1,m_2,\dots , m_k\\}$
 4. The ciphertext are given by:
 
 $$
