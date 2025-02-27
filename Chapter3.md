@@ -168,6 +168,14 @@ $$
 
 $\sigma(n)$ is a multiplicative function.
 
+# Conclusion
+
+| Function    | Definition                                                                       | Meaning                                                                      | Formula                                                                                        |
+| ----------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| $\phi(n)$   | $\phi(n) = card(\\{x \in \mathbb{Z}^+ \mid \gcd(x,n) = 1, x \in [1,n]\\})$       | The number of integers that is relatively prime to $n$ and not exceeding $n$ | $\phi(p^n)=p^n-p^{n-1}$ or $\phi(n) = n \cdot \displaystyle\prod_{i=1}^{s}{(1-\frac{1}{p_i})}$ |
+| $\tau(n)$   | $\tau(n) = \displaystyle\sum_{d \mid n}{f(d)} = \displaystyle\sum_{d \mid n}{1}$ | The number of positive divisors of $n$ that is not exceeding $n$             | $\tau(n) = \displaystyle\prod_{i=1}^{s}{(a_i+1)}$                                              |
+| $\sigma(n)$ | $\sigma(n) = \displaystyle\sum_{d \mid n}{d}$                                    | The sum of the positive divisors                                             | $\sigma(p^n) = \frac{p^{n+1} - 1}{p - 1}$                                                      |
+
 # RSA Cryptography
 
 1. The encryption key is $(n,e)$, where $n=pq$, $p$ and $q$ are prime numbers, $\gcd(e,\phi(n) = (p-1)(q-1)) = 1$. Plus, $e$ is the public key.
