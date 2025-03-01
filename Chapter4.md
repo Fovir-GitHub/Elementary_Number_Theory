@@ -4,7 +4,7 @@ $$
 \begin{array}{c}
     a \in \mathbb{Z}, a \ne 0, n \in \mathbb{Z}^+, \gcd(a,n) = 1 \\
     a^x \equiv 1 \mod n \quad x \space \text{is the smallest integer} \\
-    x = \operatorname{ord}_n{a}
+    x = \text{ord}_n{a}
 \end{array}
 $$
 
