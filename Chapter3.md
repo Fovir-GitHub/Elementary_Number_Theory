@@ -66,6 +66,19 @@ $$
 
 is also multiplicative
 
+**Proof:**
+
+$$
+\begin{array}{c}
+    F(mn) = \displaystyle\sum_{d \mid mn}{f(d)} \\
+    = \displaystyle\sum_{d_1 \mid m, d_2 \mid n}{f(d_1d_2)} \\
+    = \displaystyle\sum_{d_1 \mid m, d_2 \mid n}{(f(d_1) \cdot f(d_2))} \\
+    = \displaystyle\sum_{d_1 \mid m}\displaystyle\sum_{d_2 \mid n}f(d_1)f(d_2) \\
+    = \displaystyle\sum_{d_1 \mid m}f(d_1)F(n) \\
+    = F(m)F(n)
+\end{array}
+$$
+
 ## Theorem 1
 
 $$
