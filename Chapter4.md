@@ -172,8 +172,8 @@ If $p$ is a prime number.
 $$
 \begin{array}{c}
     \text{If} \quad p \mod 2 = 1, \space \text{ord}_p{r} = \phi(p) \\
-    \text{If} \quad r^{p-1} \equiv 1 \pmod{p^2}, \quad \text{then} \space \text{ord}_{p^2}r = p - 1 \\
-    \text{If} \quad r^{p-1} \not \equiv 1 \pmod{p^2}, \quad \text{then} \space \text{ord}_{p^2}r = p^2 - p
+    \text{If} \quad r^{p-1} \equiv 1 \pmod{p^2}, \quad \text{then} \space \text{ord}_{p^2}{r} = p - 1 \\
+    \text{If} \quad r^{p-1} \not \equiv 1 \pmod{p^2}, \quad \text{then} \space \text{ord}_{p^2}{r} = p^2 - p
 \end{array}
 $$
 
