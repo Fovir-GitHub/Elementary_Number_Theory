@@ -108,7 +108,13 @@ $$
 
 # The Jacobi Symbol
 
-If $n$ is an odd positive integer with prime factorization $n = \displaystyle\sum_{i = 1}^{m}{p_i^{t_i}}$ and $a \in \mathbb{Z}, \gcd(a,n) = 1$. Then the Jacobi symbol $(\frac{a}{n})$ is defined by:
+If $n$ is an odd positive integer with prime factorization
+
+$$
+n = \displaystyle\sum_{i = 1}^{m}{p_i^{t_i}}
+$$
+
+And $a \in \mathbb{Z}, \gcd(a,n) = 1$. Then the Jacobi symbol $(\frac{a}{n})$ is defined by:
 
 $$
 (\frac{a}{n}) = \displaystyle\sum_{i=1}^{m}{(\frac{a}{p_i})^{t_i}}
