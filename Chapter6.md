@@ -110,13 +110,13 @@ $$
 $$
 \begin{array}{c}
     \text{Use Theorem 2} \\
-    k = 1 \quad C_1 - C_0 = \frac{(-1)^0}{q_1q_0} = \frac{1}{q_1q_0} > 0 \quad C_1 \gt C_0 \quad \textcircled{1}\\
-    k = 2 \quad C_2 - C_1 = \frac{(-1)^{2-1}}{q_2q_1} = \frac{-1}{q_2q_1} \lt 0 \quad C_2 \lt C_1 \quad \textcircled{2} \\
-    k = 3 \quad C_3 - C_2 = \frac{1}{q_3q_2} \gt 0 \quad C_3 \gt C_2 \quad \textcircled{3} \\
-    \textcircled{1} + \textcircled{2}, \quad (C_1 - C_0) + (C_2 - C_1) = \frac{1}{q_1q_0} + (\frac{-1}{q_2q_1}) \\
+    k = 1 \quad C_1 - C_0 = \frac{(-1)^0}{q_1q_0} = \frac{1}{q_1q_0} > 0 \quad C_1 \gt C_0 \quad \text{I}\\
+    k = 2 \quad C_2 - C_1 = \frac{(-1)^{2-1}}{q_2q_1} = \frac{-1}{q_2q_1} \lt 0 \quad C_2 \lt C_1 \quad \text{II} \\
+    k = 3 \quad C_3 - C_2 = \frac{1}{q_3q_2} \gt 0 \quad C_3 \gt C_2 \quad \text{III} \\
+    \text{I} + \text{II}, \quad (C_1 - C_0) + (C_2 - C_1) = \frac{1}{q_1q_0} + (\frac{-1}{q_2q_1}) \\
     C_2 - C_0 = \frac{q_2-q_0}{q_0q_1q_2} \gt 0 \\
     \therefore C_2 \gt C_0 \\
-    \textcircled{2} + \textcircled{3}, \quad (C_2 - C_1) + (C_3 - C_2) = -\frac{1}{q_2q_1} + \frac{1}{q_3q_2} \\
+    \text{II} + \text{III}, \quad (C_2 - C_1) + (C_3 - C_2) = -\frac{1}{q_2q_1} + \frac{1}{q_3q_2} \\
     C_3 - C_1 = \frac{-q_3 + q_1}{q_1 q_2 q_3} \lt 0 \\
     \therefore C_2 \lt C_1 \\
 \end{array}
