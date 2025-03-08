@@ -3,7 +3,7 @@
 If $x$ is a real number, then it can be written in the form:
 
 $$
-x=\lfloor x \rfloor + \displaystyle\sum_{j=1}^{\infin}{\frac{c_j}{10^j}}
+x=\lfloor x \rfloor + \displaystyle\sum_{j=1}^{\infty}{\frac{c_j}{10^j}}
 $$
 
 ## Calculate
