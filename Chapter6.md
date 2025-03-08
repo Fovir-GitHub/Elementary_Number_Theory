@@ -20,7 +20,7 @@ $$
 ## Important Formula
 
 $$
-\displaystyle\sum_{i=0}^{\infin}{r^i} = \frac{1}{1-r}
+\displaystyle\sum_{i=0}^{\infty}{r^i} = \frac{1}{1-r}
 $$
 
 ## Theorem 1
@@ -131,7 +131,7 @@ It is a continued fraction that does not terminate.
 Let $a_0,a_1,\dots$ be an infinite sequence of positive integers, and let $C_k = [a_0;a_1,\dots,a_k]$. Then the convergent $C_k$ tend to a limit $\alpha$, that is,
 
 $$
-\lim_{k \to \infin} C_k = \alpha
+\lim_{k \to \infty} C_k = \alpha
 $$
 
 ## Theorem 2
