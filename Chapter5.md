@@ -117,7 +117,7 @@ $$
 And $a \in \mathbb{Z}, \gcd(a,n) = 1$. Then the Jacobi symbol $(\frac{a}{n})$ is defined by:
 
 $$
-(\frac{a}{n}) = \displaystyle\sum_{i=1}^{m}{(\frac{a}{p_i})^{t_i}}
+(\frac{a}{n}) = \displaystyle\prod_{i=1}^{m}{(\frac{a}{p_i})^{t_i}}
 $$
 
 If $\gcd(a,n) > 1$, then $(\frac{a}{n}) = 0$
