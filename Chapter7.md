@@ -15,6 +15,8 @@ $$
 
 If $(x,y,z)$ is a Pythagorean triple and $\gcd(x,y) = \gcd(x,z) = \gcd(y,z) = 1$, then it is a primitive Pythagorean triple
 
+If $(x,y,z)$ is a primitive Pythagorean triple, then $(kx,ky,kz), k \in \mathbb{Z}, k \gt 1$ is a Pythagorean triple (not primitive Pythagorean triple).
+
 ## Lemma
 
 If $(x,y,z)$ is a primitive Pythagorean triple, then $x$ and $y$ must be one odd one even.
@@ -68,6 +70,24 @@ $$
 
 If $m$ and $n$ are both sums of two squares, then $mn$ is also a sum of two squares.
 
+**Proof:**
+
+$$
+\begin{array}{c}
+    m = a^2 + b^2 \quad n = c^2 + d^2 \quad a,b,c,d \geq 0 \\
+    \begin{cases}
+        m = a^2 + b^2 = (a+ib)(a-ib) \\
+        n = c^2 + d^2 = (c+id)(c-id) \\
+    \end{cases} \\
+    mn = (ac+bd)(ad-bc)
+\end{array}
+$$
+
+| $a$ | $b$  |
+| --- | ---- |
+| $c$ | $d$  |
+| $d$ | $-c$ |
+
 ## Lemma
 
 $$
@@ -98,6 +118,26 @@ $$
 ## Theorem 5
 
 If $m,n \in \mathbb{Z}^+$ and are each the sum of four squares, then $mn$ is also the sum of four squares.
+
+**Proof:**
+
+$$
+\begin{array}{c}
+    \begin{cases}
+        m = a^2 + b^2 + c^2 + d^2 \\
+        n = p^2 + q^2 + r^2 + s^2 \\
+    \end{cases} \\
+    \therefore mn = (ap+bq+cr+ds)^2 + (aq-bp+cs-dr)^2 \\
+    + (ar-bs-cp+dq)^2 + (as+br-cq-dp)^2 \\
+\end{array}
+$$
+
+| $a$ | $b$  | $c$  | $d$  |
+| --- | ---- | ---- | ---- |
+| $p$ | $q$  | $r$  | $s$  |
+| $q$ | $-p$ | $s$  | $-r$ |
+| $r$ | $-s$ | $-p$ | $q$  |
+| $s$ | $r$  | $-q$ | $-p$ |
 
 ## Theorem 6
 
