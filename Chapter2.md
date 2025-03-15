@@ -186,7 +186,7 @@ $$
     \begin{cases}
         x \equiv a_1 \mod m_1 \\
         x \equiv a_2 \mod m_2 \\
-        \vdots
+        \vdots \\
         x \equiv a_r \mod m_r
     \end{cases} \\
     \text{then} \quad M = \displaystyle\prod_{i=1}^{r}{m_i} \quad \text{is a unique solution modulo}
