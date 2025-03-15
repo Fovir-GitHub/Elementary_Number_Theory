@@ -93,7 +93,7 @@ $$
 $$
 \begin{array}{c}
     \text{If $p$ is a prime number} \quad p \equiv 1 \mod 4 \\
-    \exists k \in \mathbb{Z}^+, k \in (0,p) \space \exist x,y \in \mathbb{Z} \\
+    \exists k \in \mathbb{Z}^+, k \in (0,p) \space \exists x,y \in \mathbb{Z} \\
     kp = x^2 + y^2 \\
 \end{array}
 $$
