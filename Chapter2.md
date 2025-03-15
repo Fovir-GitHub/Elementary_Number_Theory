@@ -93,6 +93,12 @@ $$
 [a]_m = \\{x \in \mathbb{Z} \mid x \equiv a \pmod m\\}
 $$
 
+**Example:**
+
+$[0]_4 = \\{\dots,-8,-4,0,4,8,\dots\\}$
+
+Because $-8 \equiv -4 \equiv 0 \equiv 4 \equiv 8 \pmod 4$.
+
 # Complete System of Residues Modulo $m$
 
 If $R$ is a complete system of residues modulo $m$, it is:
