@@ -264,10 +264,6 @@ $$
 
 ## Theorem 9
 
-If $n \in \mathbb{Z}^+$ and $\forall p, n \ne p^k, n \ne 2p^k$, then $n$ does not have a primitive root.
-
-## Theorem 10
-
 Let $p$ be an odd prime and $\text{ord}_{p^k}r = \phi(p^k)$
 
 $$
@@ -277,7 +273,7 @@ $$
 \end{array}
 $$
 
-## Theorem 11
+## Theorem 10
 
 If $n \in \mathbb{Z}^+$ has a primitive root, then
 
