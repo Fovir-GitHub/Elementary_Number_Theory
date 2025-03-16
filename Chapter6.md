@@ -89,6 +89,14 @@ $$
 \end{array}
 $$
 
+Another way to remember:
+
+$$
+p_{-1} = 1 \quad q_{-1} = 0 \\
+p_0 = a_0 \quad q_0 = 1 \\
+p_k = a_kp_{k-1} + p_{k-2} \quad q_k = a_kq_{k-1} + q_{k-2}
+$$
+
 ## Theorem 2
 
 Let $C_k = \frac{p_k}{q_k}$ be the $k$th convergent of the simple continued fraction $[a_0,a_1,a_2,\dots,a_n]$, then $q_k \geq k$ and
