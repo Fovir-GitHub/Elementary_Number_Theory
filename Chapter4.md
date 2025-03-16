@@ -209,7 +209,7 @@ If $p$ is an odd prime.
 
 $$
 \begin{array}{c}
-    \forall k \in \mathbb{Z}^+, \exists r \space \text{ord}_{p^k}{r} = \phi(r) \\
+    \forall k \in \mathbb{Z}^+, \exists r \space \text{ord}_{p^k}{r} = \phi(p^k) \\
     \text{If} \quad \text{ord}_{p^2}{r} = \phi(p^2) \quad \text{then} \quad \forall k \in \mathbb{Z} \space \text{ord}_{p^k}{r} = \phi(p^k)
 \end{array}
 $$
