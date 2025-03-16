@@ -63,7 +63,7 @@ $$
 $$
 \begin{array}{c}
     \text{If} \quad \gcd(a,n) = 1, n \gt 0 \\
-    \text{then} \quad a^i \equiv a^j \pmod n \Longleftrightarrow i \equiv j \pmod \text{ord}_n{a} \\
+    \text{then} \quad a^i \equiv a^j \pmod n \Longleftrightarrow i \equiv j \pmod {\text{ord}_n{a}}\\
 \end{array}
 $$
 
