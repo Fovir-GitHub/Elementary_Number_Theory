@@ -110,6 +110,12 @@ $$
 \end{array}
 $$
 
+## Theorem 5
+
+$$
+\displaystyle\sum_{d \mid n}{\phi(d)} = n
+$$
+
 # $\tau(n)$ Function
 
 **Definition:**
@@ -138,18 +144,6 @@ $$
     n = \displaystyle\prod_{i=1}^{s}{p_i^{a_i}} \quad p_i \space \text{are prime numbers} \\
     \tau(n) = \displaystyle\prod_{i=1}^{s}{(a_i+1)}
 \end{array}
-$$
-
-# Sum of $\phi(d)$
-
-$$
-F(n) = \displaystyle\sum_{d \mid n}{\phi(d)}
-$$
-
-## Theorem
-
-$$
-\displaystyle\sum_{d \mid n}{\phi(d)} = n
 $$
 
 # Sum of Divisors
