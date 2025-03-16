@@ -27,17 +27,18 @@ $$
 
 $$
 \begin{array}{c}
-    \text{let} \quad \text{ord}_n{a} = d \\
-    a^d \equiv 1 \pmod n \\
-    \text{suppose} \quad a^x \equiv 1 \pmod n, \quad d \mid x \Longrightarrow x = qd + r, r \in [0,d) \\
-    \therefore a^x = a^{qd+r} = (a^d)^q \cdot a^r \\
-    \therefore a^x \equiv (a^d)^q \cdot a^r \mod n \\
-    \because a^d \equiv 1 \pmod n \\
-    \therefore a^x \equiv 1^q \cdot a^r \pmod n \\
-    a^x \equiv a^r \pmod n \\
-    \because x \lt r \\
+    \text{let} \quad \text{ord}_na = d \\
+    \therefore a^d \equiv 1 \mod n \\
+    \text{suppose} \quad a^x \equiv 1 \mod n \\
+    \text{to prove:} \quad d \mid x \\
+    \text{let} \quad x = qd + r \\
+    \therefore a^{qd + r} \equiv 1 \mod n \\
+    (a^d)^q \cdot a^r \equiv 1 \mod n \\
+    \because a^d \equiv 1 \mod n \\
+    \therefore a^r \equiv 1 \mod n \\
     \therefore r = 0 \\
-    \therefore a^x \equiv 1 \pmod n
+    \therefore x = qd \\
+    \therefore d \mid x \\
 \end{array}
 $$
 
