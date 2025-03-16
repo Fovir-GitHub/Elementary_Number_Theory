@@ -269,7 +269,7 @@ Let $p$ be an odd prime and $\text{ord}_{p^k}r = \phi(p^k)$
 $$
 \begin{array}{c}
     r \mod 2 = 1 \Rightarrow \text{ord}_{2p^k}{r} = \phi(2p^k) \\
-    r \mod 2 = 0 \Rightarrow \text{ord}_{2p^k}{r+p^k} = \phi(2p^k) \\
+    r \mod 2 = 0 \Rightarrow \text{ord}_{2p^k}{(r+p^k)} = \phi(2p^k) \\
 \end{array}
 $$
 
