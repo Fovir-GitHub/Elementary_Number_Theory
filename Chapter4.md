@@ -102,7 +102,6 @@ $$
     \text{If} \quad \text{ord}_n{a} = t, u \in \mathbb{Z}^+ \\
     \text{then} \quad \text{ord}_n{a^u} = \frac{t}{\gcd(t,u)} \\
     \text{ord}_n{a^u} = \frac{\text{ord}_n{a}}{\gcd(\text{ord}_n{a},u)} \\
-    \text{ord}_n{a^u} = \frac{\phi(n)}{\gcd(\phi(n),u)} \\
 \end{array}
 $$
 
