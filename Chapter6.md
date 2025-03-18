@@ -92,9 +92,11 @@ $$
 Another way to remember:
 
 $$
-p_{-1} = 1 \quad q_{-1} = 0 \\
-p_0 = a_0 \quad q_0 = 1 \\
-p_k = a_kp_{k-1} + p_{k-2} \quad q_k = a_kq_{k-1} + q_{k-2}
+\begin{array}{c}
+    p_{-1} = 1 \quad q_{-1} = 0 \\
+    p_0 = a_0 \quad q_0 = 1 \\
+    p_k = a_kp_{k-1} + p_{k-2} \quad q_k = a_kq_{k-1} + q_{k-2}
+\end{array}
 $$
 
 ## Theorem 2
