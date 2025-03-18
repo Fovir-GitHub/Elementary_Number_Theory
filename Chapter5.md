@@ -69,7 +69,7 @@ If $p$ is an odd prime, then $-1$ is a quadratic residue of $p$ if and only if $
 
 ## Gauss's Lemma
 
-Let $p$ be an odd prime number, and $a \in \mathbb{Z}, \gcd(a,p) = 1$. If $s$ is the number of least positive residue of $ka$, where $k \in \mathbb{Z}, k \in [1,p-1]$ that are greater than $\frac{p-1}{2}$, then $(\frac{a}{p}) = (-1)^s$.
+Let $p$ be an odd prime number, and $a \in \mathbb{Z}, \gcd(a,p) = 1$. If $s$ is the number of least positive residue of $ka$, where $k \in \mathbb{Z}, k \in [1,\frac{p-1}{2}]$ that are greater than $\frac{p-1}{2}$, then $(\frac{a}{p}) = (-1)^s$.
 
 ### Example
 
@@ -80,12 +80,9 @@ $$
     3 \mod 7 = 3 \\
     6 \mod 7 = 6 \\
     9 \mod 7 = 2 \\
-    12 \mod 7 = 5 \\
-    15 \mod 7 = 1 \\
-    18 \mod 7 = 4 \\
-    \therefore \text{The residues are} \quad \\{3,6,2,5,1,4\\} \\
+    \therefore \text{The residues are} \quad \\{3,6,2\\} \\
     \because \frac{p - 1}{2} = \frac{7-1}{2} = 3 \\
-    \therefore s = 3 \\
+    \therefore s = 1 \\
     \therefore (\frac{3}{7}) = (-1) ^ s = -1
 \end{array}
 $$
