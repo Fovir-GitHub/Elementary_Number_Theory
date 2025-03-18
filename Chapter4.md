@@ -110,7 +110,7 @@ $$
 $$
 \begin{array}{c}
     \text{If} \quad \text{ord}_n{r} = \phi(n) \\
-    \text{then} \quad \text{ord}_n{r^t} \Longleftrightarrow \gcd(t, \phi(n)) = 1 \\
+    \text{then} \quad \text{ord}_n{r^t} = \phi(n) \Longleftrightarrow \gcd(t, \phi(n)) = 1 \\
 \end{array}
 $$
 
