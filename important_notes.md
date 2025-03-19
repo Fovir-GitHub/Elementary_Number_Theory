@@ -127,6 +127,7 @@ If $p$ is an odd prime number, then
 2. $(\frac{a}{n})(\frac{b}{n}) = (\frac{ab}{n})$
 3. $(\frac{-1}{n}) = (-1)^{\frac{n-1}{2}}$
 4. $(\frac{2}{n}) = (-1)^{\frac{n^2-1}{8}}$
+5. $\gcd(a,n) > 0 \Longleftrightarrow (\frac{a}{n}) = 0$
 
 # Quadratic Irrationals
 
